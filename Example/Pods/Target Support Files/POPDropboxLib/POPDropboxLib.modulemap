@@ -1,0 +1,6 @@
+framework module POPDropboxLib {
+  umbrella header "POPDropboxLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
