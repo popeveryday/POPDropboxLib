@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "POPDropboxLib"
-s.version          = "0.1.1"
+s.version          = "0.1.2"
 s.summary          = "Lib for dropbox api v2."
 s.homepage         = "https://github.com/popeveryday/POPDropboxLib"
 s.license          = 'MIT'
