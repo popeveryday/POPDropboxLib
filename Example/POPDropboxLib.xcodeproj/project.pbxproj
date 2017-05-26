@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2DAFE5115389B28A56CC628A /* Pods_POPDropboxLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042465EF8D3EC2E20EF8CF0B /* Pods_POPDropboxLib_Tests.framework */; };
+		4E82303E1ED8954B0019E8CB /* POPDropboxLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E82303D1ED8954B0019E8CB /* POPDropboxLib.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,8 +39,9 @@
 
 /* Begin PBXFileReference section */
 		042465EF8D3EC2E20EF8CF0B /* Pods_POPDropboxLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POPDropboxLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22B1DB8E066EF2CA838B6308 /* POPDropboxLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = POPDropboxLib.podspec; path = ../POPDropboxLib.podspec; sourceTree = "<group>"; };
-		3C8E266944DB443A29283C0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		22B1DB8E066EF2CA838B6308 /* POPDropboxLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = POPDropboxLib.podspec; path = ../POPDropboxLib.podspec; sourceTree = "<group>"; };
+		3C8E266944DB443A29283C0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4E82303D1ED8954B0019E8CB /* POPDropboxLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = POPDropboxLib.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/POPDropboxLib-cucvnwjgnikngngiqjtxpsadppbb/Build/Products/Debug-iphonesimulator/POPDropboxLib/POPDropboxLib.framework"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* POPDropboxLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POPDropboxLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +68,7 @@
 		AC54E46C887795B2116B46B9 /* Pods-POPDropboxLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POPDropboxLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POPDropboxLib_Example/Pods-POPDropboxLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C208C2AEA5D1CCAB52AE7183 /* Pods_POPDropboxLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POPDropboxLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE088E3448CFA9A0B4E6A473 /* Pods-POPDropboxLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POPDropboxLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-POPDropboxLib_Tests/Pods-POPDropboxLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F8560E85F37EF1AA2CE75258 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F8560E85F37EF1AA2CE75258 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E82303E1ED8954B0019E8CB /* POPDropboxLib.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -119,6 +122,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E82303D1ED8954B0019E8CB /* POPDropboxLib.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,

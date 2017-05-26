@@ -7,6 +7,7 @@
 //
 
 #import "POPViewController.h"
+//#import <POPDropboxLib/POPDropboxLib.h>
 
 @interface POPViewController ()
 
@@ -17,7 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+//    [POPDropboxLib doit];
+    
 }
 
 - (void)didReceiveMemoryWarning

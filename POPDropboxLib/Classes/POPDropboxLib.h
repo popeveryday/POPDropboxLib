@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ObjectiveDropboxOfficial.h"
 
 @interface POPDropboxLib : NSObject
     

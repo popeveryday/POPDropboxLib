@@ -1,22 +1,24 @@
 {
   "name": "POPDropboxLib",
-  "version": "0.1.0",
-  "summary": "A short description of POPDropboxLib.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/popeveryday@gmail.com/POPDropboxLib",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "version": "0.1.2",
+  "summary": "Lib for dropbox api v2.",
+  "homepage": "https://github.com/popeveryday/POPDropboxLib",
+  "license": "MIT",
   "authors": {
-    "popeveryday@gmail.com": "popeveryday@gmail.com"
+    "popeveryday": "popeveryday@gmail.com"
   },
   "source": {
-    "git": "https://github.com/popeveryday@gmail.com/POPDropboxLib.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/popeveryday/POPDropboxLib.git",
+    "tag": "0.1.2"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.1"
   },
-  "source_files": "POPDropboxLib/Classes/**/*"
+  "requires_arc": true,
+  "source_files": "POPDropboxLib/Classes/**/*.{h,m,c}",
+  "dependencies": {
+    "POPLib": [
+      "~> 0.1"
+    ]
+  }
 }

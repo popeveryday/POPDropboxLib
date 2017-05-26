@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "POPDropboxLib.h"
 
 FOUNDATION_EXPORT double POPDropboxLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char POPDropboxLibVersionString[];
