@@ -7,7 +7,7 @@
 //
 
 #import "POPViewController.h"
-//#import <POPDropboxLib/POPDropboxLib.h>
+#import <POPDropboxLib/POPDropboxLib.h>
 
 @interface POPViewController ()
 
@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
 	
-//    [POPDropboxLib doit];
+    [POPDropboxLib doit];
     
 }
 
